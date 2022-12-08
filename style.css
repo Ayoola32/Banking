@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #344a72;
+  height: 100vh;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  /* margin: 40px auto; */
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-wrap {
+  /* White Area of the form */
+  background-color: white;
+  padding: 15px 25px;
+  color: #333;
+  border-radius: 10px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+  display: block;
+  color: #666;
+}
+
+.form-wrap .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+}
+.form-wrap .form-group input:focus {
+  outline: none;
+}
+
+.form-wrap button {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #49c1a2;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-wrap button:hover {
+  background-color: #37a08e;
+}
+
+.form-wrap .bottom-text {
+  font-size: 13px;
+  margin: 20px;
+}
+
+/* .form-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; */
+  visibility: hidden;
+}
+.form-hint img {
+  height: 0.8rem;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+footer a {
+  color: #49c1a2;
+}
