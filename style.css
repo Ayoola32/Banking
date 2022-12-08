@@ -77,13 +77,14 @@ a {
   margin: 20px;
 }
 
-/* .form-hint {
+ .form-hint {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative; */
-  visibility: hidden;
+  position: relative; 
 }
+
+  /* visibility: hidden; 
 .form-hint img {
   height: 0.8rem;
   cursor: pointer;
